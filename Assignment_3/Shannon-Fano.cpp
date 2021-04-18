@@ -130,9 +130,6 @@ int main(){
         sum1 += used[s[i]] * encoded[s[i]].size();
         sum2 += used[s[i]];
     }
-    for(int i =0; i < n; i++){
-        cout << s[i] << '\t' << used[s[i]] << '\t' << encoded[s[i]] << "(" << encoded[s[i]].size() << ")" << endl;
-    }
     cout << "Number of bits in the original text: " << n*8 << "bits\n";
     cout << "Number of bits in the compressed text: " << len << "bits\n";
     cout << "Compression ratio = " << fixed << setprecision(3) << 1.0*n*8/len <<  endl;
