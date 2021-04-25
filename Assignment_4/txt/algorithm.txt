@@ -1,0 +1,11 @@
+1,a k z t s n 
+2,a k 
+3,z t s n 
+4,a 
+5,k 
+6,z t 
+7,s n 
+12,z 
+13,t 
+14,s 
+15,n 
